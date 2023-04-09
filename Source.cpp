@@ -33,7 +33,7 @@ static int CreateShader(const std::string& vertex_shader, const std::string& fra
     std::string vertexShader =
     "#version 330 core\n"
     "\n"
-    "layout(location = 0) in vec4 position;"
+    "layout(location = 0) in vec4 position;\n"
     "\n"
     "void main()\n"
     "{\n"
@@ -47,7 +47,7 @@ static int CreateShader(const std::string& vertex_shader, const std::string& fra
     "\n"
     "void main()\n"
     "{\n"
-    "color = vec4(1.0, 0.0, 0.0, 1.0)\n"
+    "color = vec4(1, 0.5, 0.0, 1);\n"
     "}\n";
 
 int main(void)
